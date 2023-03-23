@@ -54,10 +54,6 @@ body {
   background-color: #ddd;
 }
 
-.call button:hover {
-  background-color: #6d34fd;
-}
-
 .call img {
   position: relative;
   top: -15px;
@@ -131,4 +127,8 @@ body {
   background-color: #000;
   border-radius: 18px;
   padding-top: 30px;
+}
+
+.call button:hover {
+  background-color: #6d34fd;
 }
