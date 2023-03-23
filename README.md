@@ -1,37 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Microverse README Template</b></h3>
-
+  <br/>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,36 +31,25 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Microverse Hello World] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+Microverse portfolio is created with the porpouse of has a space where I can show my own projects and skills 
 
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With HTML and CSS <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html5.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Styles</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
@@ -97,11 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- it's a basic web page using HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://artufelii.github.io/microverse-hello-world/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +73,52 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
+- download the git repository 
+- run npm init -y to create a node_modules folder
+- add package.json to your root directory 
+- run npm install for install all dependencies.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- node 12.x or latest
+- npm 7.x or latest
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+- cd my-folder
+- git clone git@github.com:Artufelii/microverse-hello-world
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- cd microverse-hello-world
+- npm install
 
 ### Usage
 
-To run the project, execute the following command:
+To run the linters, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- HTML: npx hint .
+- CSS: npx stylelint "**/*.{css,scss}"
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- HTML: npx hint .
+- CSS: npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- You can deploy this web app directly to github pages or any other host that you want.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +126,10 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Artufelii](https://github.com/Artufelii)
+- LinkedIn: [Arturo Alvarez](https://www.linkedin.com/in/arturo-alvarez-martinez-ab9b77151/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +137,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+Maybe there are no future features
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +155,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project you can follow me on my social media 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,25 +163,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank Microverse team that help me to become a better developer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +172,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
