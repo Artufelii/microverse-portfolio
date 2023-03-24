@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #E5E5E5;
 }
 
 .header {
@@ -31,8 +32,9 @@ body {
   background-image: url('../assets/header-shapes mobile@2x.png');
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 20px;
+  background-color: #fff;
 }
 
 .title {
