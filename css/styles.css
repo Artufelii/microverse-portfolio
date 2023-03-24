@@ -33,7 +33,7 @@ hr {
 }
 
 .greet {
-  background-image: url('../assets/header-shapes mobile@2x.png');
+  background-image: url('../assets/header-shapes mobile.png');
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 90vh;
@@ -56,16 +56,11 @@ hr {
   margin: 0;
 }
 
-.title p {
-  font-weight: 700;
-  font-size: 40px;
-  margin: 0;
-}
-
 .me {
   position: relative;
   top: 210px;
   font-size: 16px;
+  color: #344563;
 }
 
 .contact {
@@ -77,12 +72,14 @@ hr {
   justify-content: flex-start;
 }
 
-.contact p {
+.contact h3 {
   color: #6d34fd;
+  font-weight: 400;
+  margin: 15px 0;
 }
 
 .social {
-  width: 30%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -116,7 +113,7 @@ hr {
 }
 
 .image-container {
-  width: 100%;
+  width: 295px;
   height: 220px;
   border-radius: 8px;
   display: flex;
@@ -125,11 +122,12 @@ hr {
 }
 
 .image-container img {
-  max-width: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .info {
-  width: 100%;
+  width: 295px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -140,6 +138,7 @@ hr {
   font-weight: 700;
   line-height: 44px;
   margin: 0;
+  color: #172b4d;
 }
 
 .canopy {
@@ -148,6 +147,10 @@ hr {
   font-weight: 600;
   color: #7a869a;
   align-items: center;
+}
+
+.canopy p {
+  color: #344563;
 }
 
 .canopy ul {
@@ -159,6 +162,7 @@ hr {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  color: #344563;
 }
 
 .extract p {
@@ -215,7 +219,7 @@ hr {
 }
 
 .width {
-  width: 70%;
+  width: 100%;
 }
 
 .position {
@@ -226,6 +230,8 @@ hr {
 .skills {
   width: 100%;
   margin-top: 170px;
+  padding: 0;
+  list-style: none;
 }
 
 .skill {
@@ -265,4 +271,14 @@ hr {
   background-color: #f7f7f9;
   padding: 10px 20px;
   border-radius: 8px;
+}
+
+.see:hover {
+  color: #fff;
+  background-color: #6071ff;
+}
+
+.see:active {
+  color: #fff;
+  background-color: #2230d2;
 }
