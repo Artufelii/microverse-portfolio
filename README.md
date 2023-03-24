@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Microverse Portfolio</b></h3>
   <br/>
 </div>
 
@@ -57,7 +57,7 @@ Microverse portfolio is created with the porpouse of has a space where I can sho
 
 ### Key Features <a name="key-features"></a>
 
-- it's a basic web page using HTML and CSS
+- Mobile first CSS styles 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ Microverse portfolio is created with the porpouse of has a space where I can sho
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://artufelii.github.io/microverse-hello-world/)
+- [Live Demo Link](https://artufelii.github.io/microverse-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-- cd microverse-hello-world
+- cd your-folder-name 
 - npm install
 
 ### Usage
@@ -137,7 +137,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Maybe there are no future features
+-Add media queries to desktop size
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
