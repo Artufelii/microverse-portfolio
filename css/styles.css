@@ -197,6 +197,7 @@ hr {
   margin: 10px 0;
   text-decoration: none;
   background-color: #fff;
+  transition: background-color 1s;
 }
 
 .background-dark {
