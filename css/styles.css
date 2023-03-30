@@ -399,6 +399,7 @@ hr {
   .works-container {
     padding-inline: 142px;
   }
+
   .card {
     min-height: auto;
     flex-direction: row;
@@ -406,7 +407,7 @@ hr {
     justify-content: space-between;
     gap: 20px;
   }
-  
+
   .row-reverse {
     flex-direction: row-reverse;
   }
@@ -414,7 +415,7 @@ hr {
   .full-width {
     width: 100%;
   }
-  
+
   .half-width {
     width: 50%;
   }
@@ -422,7 +423,7 @@ hr {
   .quarter-width {
     width: 32%;
   }
-  
+
   .align-center {
     margin: 0 auto;
   }
@@ -436,7 +437,7 @@ hr {
     width: 100%;
     height: 100%;
   }
-  
+
   .info {
     width: 50%;
   }
@@ -459,7 +460,7 @@ hr {
     width: 55%;
     margin-bottom: 200px;
   }
-  
+
   .languages-list {
     flex-direction: row;
   }
