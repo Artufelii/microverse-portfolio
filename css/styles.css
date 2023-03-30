@@ -37,6 +37,15 @@ hr {
   width: 30px;
 }
 
+.menu svg {
+  transition: display 0.5s;
+}
+
+.menu-list {
+  display: none;
+  transition: display 0.5s;
+}
+
 .greet {
   background-image: url('../assets/header-shapes mobile.png');
   background-size: contain;
@@ -44,6 +53,7 @@ hr {
   min-height: 90vh;
   padding: 20px;
   background-color: #fff;
+  transition: background-image 0.5s;
 }
 
 .title {
@@ -356,6 +366,7 @@ hr {
     padding-inline: 100px;
     justify-content: space-between;
   }
+
   .greet {
     background-image: url('../assets/Header\ bg@2x.png');
     display: flex;
@@ -367,20 +378,24 @@ hr {
     min-height: auto;
     max-height: 916px;
   }
+
   .title {
     position: static;
     width: 60%;
   }
+
   .me {
     position: static;
   }
+
   .contact {
     position: static;
   }
+
   .social {
     width: 100%;
   }
-  
+
   .works-container {
     padding-inline: 142px;
   }
@@ -463,6 +478,10 @@ hr {
 
   .menu {
     width: 30%;
+  }
+
+  .menu svg {
+    display: none;
   }
 
   .menu-list {
