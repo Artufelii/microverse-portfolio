@@ -6,11 +6,6 @@ body {
   background-color: #e5e5e5;
 }
 
-main {
-  max-width: 1263px;
-  margin: 0 auto;
-}
-
 hr {
   background-color: #dfe1e6;
 }
@@ -223,8 +218,6 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   min-height: 100%;
-  max-width: calc(1263px - 286px);
-  margin: 0 auto;
 }
 
 .width {
@@ -361,8 +354,6 @@ hr {
 
 @media screen and (min-width: 768px) {
   .header {
-    max-width: calc(1263px - 200px);
-    margin: 0 auto;
     padding-inline: 100px;
     justify-content: space-between;
   }
