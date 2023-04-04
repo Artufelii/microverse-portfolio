@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin: 0;
@@ -8,6 +12,10 @@ body {
 
 hr {
   background-color: #dfe1e6;
+}
+
+label {
+  display: none;
 }
 
 .header {
@@ -207,6 +215,7 @@ hr {
   margin: 10px 0;
   text-decoration: none;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .about {
@@ -345,11 +354,13 @@ hr {
   color: #fff;
   background-color: #6071ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
 }
 
 .see:active {
   color: #fff;
   background-color: #2230d2;
+  border: 1px solid #fff;
 }
 
 @media screen and (min-width: 768px) {
