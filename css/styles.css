@@ -14,10 +14,6 @@ hr {
   background-color: #dfe1e6;
 }
 
-label {
-  display: none;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
