@@ -51,7 +51,7 @@ label {
 
 .greet {
   background-image: url('../assets/header-shapes mobile.png');
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   min-height: 90vh;
   padding: 20px;
