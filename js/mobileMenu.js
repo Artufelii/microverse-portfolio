@@ -3,7 +3,7 @@ const openMenuButton = document.getElementById('open-menu-button');
 const closeMenuButton = document.getElementById('close-menu-button');
 const mobileMenu = document.getElementById('mobile-menu');
 const main = document.getElementById('main');
-// const mobileMenuOptions = document.getElementById('mobile-menu-list').querySelectorAll('li')
+const mobileMenuOptions = document.getElementById('mobile-menu-list').querySelectorAll('li')
 
 const openMobileMenu = () => {
   mobileMenu.classList.add('show');
@@ -20,6 +20,6 @@ const closeMobileMenu = () => {
 openMenuButton.addEventListener('click', openMobileMenu);
 closeMenuButton.addEventListener('click', closeMobileMenu);
 
-// mobileMenuOptions.forEach(opt => {
-// opt.addEventListener('click', closeMobileMenu)
-// })
+mobileMenuOptions.forEach(opt => {
+opt.addEventListener('click', closeMobileMenu)
+})
