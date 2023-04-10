@@ -9,25 +9,25 @@
 	<title>Arturo Alvarez Portfolio</title>
 </head>
 <body>
-	<header class="header">
+	<header id="header" class="header">
 		<div class="logo">
-			<a href="/" class="a">
+			<a href="#greet" class="a">
 				My Logo
 			</a>
 		</div>
 		<nav class="menu">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+			<svg id="open-menu-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
 				<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
 			</svg>
 			<ul class="menu-list">
-				<li><a href="/">Portfolio</a></li>
+				<li><a href="#greet">Portfolio</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-	<main>
-		<section class="greet">
+	<main id="main">
+		<section id="greet" class="greet">
 			<div class="title">
 				<h1>I'm Arturo Alvarez. Glad to see you!</h1>
 			</div>
@@ -278,5 +278,30 @@
 				</div>
 		</section>
 	</main>
+	<nav id="mobile-menu" class='cover'>
+		<div id="close-menu-button" class="button">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  			<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</div>
+		<ul id="mobile-menu-list">
+			<li>
+				<a href="#greet" class='link'>
+					Portfolio
+				</a>
+			</li>
+			<li>
+				<a href="#about" class='link'>
+					About
+				</a>
+			</li>
+			<li>
+				<a href="#contact" class='link'>
+					Contact
+				</a>
+			</li>
+		</ul>
+	</nav>
 </body>
+<script type="module" src="js/mobileMenu.js"></script>
 </html>
