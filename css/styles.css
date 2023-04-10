@@ -32,6 +32,10 @@ hr {
   width: 30px;
 }
 
+.blur {
+  filter: blur(10px);
+}
+
 .menu svg {
   transition: display 0.5s;
 }
@@ -350,6 +354,47 @@ hr {
 .see:active {
   color: #fff;
   background-color: #2230d2;
+}
+
+.cover {
+  position: fixed;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  padding: 28px;
+  color: #fff;
+  transition: top 0.5s;
+}
+
+.show {
+  top: 0
+}
+
+.button {
+  width: 30px;
+  margin-left: auto;
+}
+
+.cover ul {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+  mix-blend-mode: normal;
+}
+
+.cover li {
+  margin: 20px 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
 }
 
 @media screen and (min-width: 768px) {
