@@ -15,12 +15,17 @@ hr {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
   color: #6d34fd;
   padding-inline: 10px;
+  z-index: 10;
 }
 
 .a {
@@ -57,6 +62,7 @@ hr {
   padding: 20px;
   background-color: #fff;
   transition: background-image 0.5s;
+  margin-top: 38px;
 }
 
 .title {
