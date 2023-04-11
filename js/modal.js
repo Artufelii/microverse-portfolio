@@ -7,3 +7,7 @@ const openModal = () => {
 buttons.forEach((button) => {
   button.addEventListener('click', openModal)
 })
+
+const closeModal = () => {
+  document.getElementById('modal').classList.remove('open')
+}
