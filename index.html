@@ -19,7 +19,7 @@
 			<svg id="open-menu-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
 				<path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
 			</svg>
-			<ul class="menu-list">
+			<ul id="header-nav" class="menu-list">
 				<li><a href="#greet">Portfolio</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -67,7 +67,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="works">
+		<section id="works" class="works">
 			<div class="works-container">
 				<div class="card">
 					<div class="image-container">
@@ -92,7 +92,7 @@
 							<li>CSS</li>
 							<li>JavaScript</li>
 						</ul>
-						<a href="https://tuhogaraunclic.com" class="see">See project</a>
+						<button class="see">See project</button>
 					</div>
 				</div>
 				<div class="card row-reverse">
@@ -118,7 +118,7 @@
 							<li>CSS</li>
 							<li>JavaScript</li>
 						</ul>
-						<a href="https://restaurante-web-eta.vercel.app/" class="see">See project</a>
+						<button class="see">See project</button>
 					</div>
 				</div>
 				<div class="card">
@@ -144,7 +144,7 @@
 							<li>CSS</li>
 							<li>JavaScript</li>
 						</ul>
-						<a href="https://farmaciajesus.onrender.com" class="see">See project</a>
+						<button class="see">See project</button>
 					</div>
 				</div>
 				<div class="card row-reverse">
@@ -170,7 +170,7 @@
 							<li>CSS</li>
 							<li>JavaScript</li>
 						</ul>
-						<a href="https://restaurante-web-eta.vercel.app/" class="see">See project</a>
+						<button class="see">See project</button>
 					</div>
 				</div>
 			</div>
@@ -278,6 +278,42 @@
 				</div>
 		</section>
 	</main>
+	<div id="modal" class='modal'>
+		<div class="modal-info">
+			<div class="modal-title">
+				<h1>Tonic</h1>
+				<div id="close-modal-button" class="button">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</div>
+			</div>
+			<ul id="modal-canopy" class="modal-canopy">
+				<p>Canopy</p>
+				<li>
+					Backend
+				</li>
+				<li>
+					2015
+				</li>
+			</ul>
+			<div class="modal-image">
+				<img src="" alt="">
+			</div>
+			<div class="modal-desc">
+				<p>lorem</p>
+				<ul class="modal-languages-list">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+			<div class="modal-buttons">
+				<button>See live</button>
+				<button>See source</button>
+			</div>
+		</div>
+	</div>
 	<nav id="mobile-menu" class='cover'>
 		<div id="close-menu-button" class="button">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -304,4 +340,5 @@
 	</nav>
 </body>
 <script type="module" src="js/mobileMenu.js"></script>
+<script type="module" src="js/modal.js"></script>
 </html>
