@@ -19,6 +19,7 @@ export const card = (work, i) => `
 
 export const modal = (work, index) => `
 <div id="modal-${index}" class='modal'>
+<div class="modal-overlay"></div>
 <div class="modal-info">
 <div class="modal-title">
 <h1>${work.name}</h1>
@@ -35,14 +36,20 @@ export const modal = (work, index) => `
 <div class="modal-image">
 <img src="${work.image}" alt="${work.name}">
 </div>
+<div class="modal-info-container">
 <div class="modal-desc">
 <p>${work.description}</p>
-<ul class="technologies modal-tech"> ${work.tech.map((t) => `<li>${t}</li>`).join('')} </ul>
 </div>
+<div class="modal-lists">
+<div>
+<ul class="technologies modal-tech"> ${work.tech.map((t) => `<li>${t}</li>`).join('')} </ul>
 <hr>
+</div>
 <div class="modal-buttons">
 <a href="${work.demo}" class="see modal-link">See live <img src="assets/live.svg" alt="live demo"></a>
 <a href="${work.source}" class="see modal-link">See source <img src="assets/git.png" alt="Github"></a>
+</div>
+</div>
 </div>
 </div>
 </div>`;
