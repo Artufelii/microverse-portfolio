@@ -162,19 +162,20 @@
 				<h1>Contact me</h1>
 				<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
 	I’d love to help with it!</p>
-				<form class="form" action="https://formspree.io/f/xnqybwkl" method="POST">
+				<form id="contactForm" class="form" action="https://formspree.io/f/xnqybwkl" method="POST">
           <label for="name" hidden>Name</label>
 					<input id="name" name="name" type="text" placeholder="Name" maxlength="30" required>
           <label for="email" hidden>Email</label>
 					<input id="email" name="email" type="email" placeholder="Email" required>
           <label for="message" hidden>Message</label>
 					<textarea id="message" name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
+					<p id="response-message"></p>
 					<button type="submit" class="see align-center high-contrast">Get in touch</button>
 				</form>
 				</div>
 		</section>
 	</main>
-	<nav id="mobile-menu" class='cover'>
+	<nav id="mobile-menu" class='cover' enctype="multipart/form-data">
 		<div id="close-menu-button" class="button">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   			<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -202,4 +203,5 @@
 <script type="module" src="js/mobileMenu.js"></script>
 <script type="module" src="js/modal.js"></script>
 <script type="module" src="js/storageData.js"></script>
+<script type="module" src="js/contactFormValidation.js"></script>
 </html>
