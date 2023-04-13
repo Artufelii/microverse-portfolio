@@ -1,4 +1,4 @@
-const inputs = document.querySelector('form').querySelectorAll('input');
+const inputs = document.getElementById('contactForm').querySelectorAll('input');
 const textarea = document.getElementById('message');
 
 let data = {
