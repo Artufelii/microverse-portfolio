@@ -10,17 +10,20 @@ const onSubmit = (e) => {
 
   if (!emailInputValidator.test(email)) {
     message.innerHTML = '* Error: The content of the email field has to be in lower case';
+    return;
   }
 
   fetch(e.target.action, {
-  method: 'POST',
-  body: data,
-  headers: {
-  'Accept': 'application/json'
-  }
+    method: 'POST',
+    body: data,
+    headers: {
+      Accept: 'application/json',
+    },
   })
-  .then(() => message.innerHTML = '* Success: Thanks for your submission!')
+    .then(() => {
+      message.innerHTML = '* Success: Thanks for your submission!';
+    });
 
-  contactForm.reset()
+  contactForm.reset();
 };
 contactForm.addEventListener('submit', onSubmit);
