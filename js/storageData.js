@@ -19,12 +19,12 @@ window.onload = () => {
   }
 };
 
-//const handleChange = ({ target: { name, value } }) => {
-  //data[name] = value;
-  //localStorage.setItem('contactData', JSON.stringify(data));
-//};
+const handleChange = ({ target: { name, value } }) => {
+  data[name] = value;
+  localStorage.setItem('contactData', JSON.stringify(data));
+};
 
-//textarea.onchange = handleChange;
-//inputs.forEach((input) => {
-  //input.onchange = handleChange;
-//});
+textarea.onchange = handleChange;
+inputs.forEach((input) => {
+  input.onchange = handleChange;
+});
